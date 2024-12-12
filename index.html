@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tổ 3</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif; /* font chữ */
+        line-height: 1.6; /* Tăng khoảng cách dòng */
+        margin: 0; /* Loại bỏ khoảng cách mặc định của trình duyệt */
+        padding: 0; /* Loại bỏ khoảng cách mặc định của trình duyệt */
+      }
+      header {
+        background: #333; /* Đặt màu nền đậm cho tiêu đề */
+        color: #fff; /* Màu chữ trắng  */
+        padding: 10px 20px; /* Khoảng cách trong tiêu đề */
+        text-align: center; /* Căn giữa nội dung tiêu đề */
+      }
+      nav {
+        display: flex; /*  các liên kết điều hướng */
+        background: #444; /* Màu nền tối */
+        color: #fff; /* Màu chữ trắng */
+        justify-content: space-around; /* Dàn đều các mục trong thanh điều hướng */
+        padding: 10px 0; /* Khoảng cách trong thanh điều hướng */
+      }
+      nav a {
+        color: #fff; /* Màu chữ trắng cho liên kết */
+        text-decoration: none; /* Loại bỏ gạch chân mặc định của liên kết */
+      }
+      section {
+        padding: 20px; /* Thêm khoảng cách trong các phần nội dung */
+      }
+      .sub-section {
+        margin-bottom: 20px; /* Thêm khoảng cách giữa các phần nhỏ */
+      }
+      iframe,
+      video {
+        width: 100%; /* Đặt video chiếm toàn bộ chiều rộng */
+        max-width: 600px; /* Đặt chiều rộng tối đa */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>GR3 GANG</h1>
+    </header>
+    <nav>
+      <a href="#study">Góc Học Tập</a>
+      <a href="#entertainment">Góc Giải Trí</a>
+    </nav>
+    <section id="study">
+      <h2>Góc Học Tập</h2>
+      <div class="sub-section">
+        <h3>Danh sách học sinh của nhóm</h3>
+        <ul>
+          <li>Phan Lê Vỹ</li>
+          <li>Thời Lê Minh Trí</li>
+          <li>Trương Lê Quân</li>
+          <li>Đinh Đạt Luân</li>
+          <li>Bùi Quang Hào Miu</li>
+          <li>Nguyễn Quang Minh</li>
+        </ul>
+      </div>
+      <div class="sub-section">
+        <h3>Danh sách giáo viên giảng dạy</h3>
+        <ul>
+          <li>Thầy Trần Hữu Nam</li>
+          <li>Thầy Trần Quang Quyền</li>
+          <li>Thầy Trần Huy Bình</li>
+          <li>Thầy Đặng Văn Quang</li>
+          <li>Thầy Thắng Đinh</li>
+          <li>Cô Ngô Thị Lệ Sâm</li>
+          <li>Cô Mai Văn Lân</li>
+        </ul>
+      </div>
+      <div class="sub-section">
+        <h3>Danh sách môn học</h3>
+        <ul>
+          <li>Toán</li>
+          <li>Văn</li>
+          <li>Anh</li>
+          <li>Lý</li>
+          <li>Hóa</li>
+          <li>Tin</li>
+          <li>Sinh</li>
+          <li>Sử</li>
+          <li>GDTC</li>
+          <li>GDQP</li>
+          <li>GDĐP</li>
+        </ul>
+      </div>
+    </section>
+    <section id="entertainment">
+      <h2>Góc Giải Trí</h2>
+      <div class="sub-section">
+        <h3>Âm nhạc</h3>
+        <audio controls>
+          <source src="audio/nhac1.mp3" type="audio/mpeg" />
+          Trình duyệt của bạn không hỗ trợ phát nhạc.
+        </audio>
+        <br />
+        <audio controls>
+          <source src="audio/nhac2.mp3" type="audio/mpeg" />
+          Trình duyệt của bạn không hỗ trợ phát nhạc.
+        </audio>
+        <br />
+        <audio controls>
+          <source src="audio/nhac3.mp3" type="audio/mpeg" />
+          Trình duyệt của bạn không hỗ trợ phát nhạc.
+        </audio>
+      </div>
+      <div class="sub-section">
+        <h3>Video</h3>
+        <!-- Video 1 -->
+        <video controls>
+          <source src="video/video1.mp4" type="video/mp4" />
+          Trình duyệt của bạn không hỗ trợ phát video.
+        </video>
+        <br />
+        <!-- Video 2 -->
+        <video controls>
+          <source src="video/video2.mp4" type="video/mp4" />
+          Trình duyệt của bạn không hỗ trợ phát video.
+        </video>
+      </div>
+      <div class="sub-section">
+        <h3>Games</h3>
+        <!-- Thay đổi liên kết game -->
+        <a
+          href="https://truonglequan.github.io/Dragon-Ball/?fbclid=IwZXh0bgNhZW0CMTAAAR2CtdDjFo_CAklxQ08K5VgwiR7lish8MxRliBjXBU0dEhKCGFhpAUvRgkQ_aem_fiPqoYWKnVatIJ3i0vSavg"
+          target="_blank"
+        >
+          Chơi game tại đây
+        </a>
+      </div>
+    </section>
+  </body>
+</html>
